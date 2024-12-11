@@ -1,5 +1,5 @@
 {% set name = "eeg_positions" %}
-{% set version = "2.1.1" %}
+{% set version = "2.1.2" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eeg_positions-{{ version }}.tar.gz
-  sha256: 4886511a957be5315daf21d747ed7fc253138fbb0980f08b648d50c8ccfd46ae
+  sha256: 3677b366b7a9ec75cb9fd032af4d97b3b7220fc037441bdcf41dd87b3e48d788
 
 build:
   noarch: python
